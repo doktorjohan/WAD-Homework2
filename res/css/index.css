@@ -52,7 +52,7 @@ a {
     grid-template-columns: auto 50% auto;
 }
 
-.feed {
+#feed {
     display: flex;
     flex-direction: column;
     width: 90%;
