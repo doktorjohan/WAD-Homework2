@@ -1,0 +1,92 @@
+/* Navbar */
+.header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: #69a2b0ff;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav {
+    margin-top: 5px;
+    display: flex;
+}
+
+a {
+    color: #C2F8CB;
+    text-decoration: none;
+}
+
+.nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    color: #34495e;
+    font-size: .99em;
+}
+
+.nav a:hover {
+    background-color: #957186;
+    border-radius: 10px;
+}
+
+#logo {
+    margin: 5px;
+}
+
+/* Log in */
+.login {
+    position: center;
+    border-radius: 10px;
+    background-color: #9699a1;
+    width: fit-content;
+    margin: 5% auto;
+    padding: 2%;
+}
+
+div div {
+    position: relative;
+    margin: 2% auto;
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    color: #08608a;
+}
+
+.loginButton {
+    background-color: #4267B2;
+    color: white;
+    border-color: white;
+    border-width: thin;
+    width: 100px;
+    height: 20px;
+    position: center;
+    margin: auto;
+
+}
+
+div form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+form input {
+    margin: 2px;
+}

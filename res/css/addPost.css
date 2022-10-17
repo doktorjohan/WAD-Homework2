@@ -1,0 +1,98 @@
+/* Navbar */
+.header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: #69a2b0ff;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav {
+    margin-top: 5px;
+    display: flex;
+}
+
+a {
+    color: #C2F8CB;
+    text-decoration: none;
+}
+
+.nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    color: #34495e;
+    font-size: .99em;
+}
+
+.nav a:hover { /* Pseudo-class */
+    background-color: #957186;
+    border-radius: 10px;
+}
+
+#logo {
+    margin: 5px;
+}
+
+/* Add post container */
+
+.addPost {
+    position: center;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 5% auto;
+    width: fit-content;
+    background-color: #9699A1FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+textarea {
+    margin-left: 5%;
+    resize: none;
+}
+
+#myFile { /* ID selector */
+    margin-left: 5%;
+    border-color: grey;
+    border-width: thin;
+    width: 100px;
+    height: 20px;
+    color: transparent;
+    background: transparent;
+}
+
+table td { /*Descendant Selector*/
+    vertical-align: top;
+    text-align: left;
+}
+
+table > tr { /* Child Selector */
+    border-spacing: 5px;
+}
+
+table + input { /*  Adjacent Sibling Selector */
+    display: flex;
+    background-color: #4267B2;
+    color: white;
+    border-color: white;
+    border-width: thin;
+    width: 100px;
+    height: 20px;
+    margin: 10px auto;
+    justify-content: center;
+}

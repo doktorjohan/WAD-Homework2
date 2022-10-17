@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login page</title>
+    <link rel="stylesheet" href="res/css/main.css">
+    <link rel="stylesheet" href="res/css/login.css">
+</head>
+<body>
+<!-- Navbar -->
+<header class="header">
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+    </ul>
+    <a href="login.html" id="logo"><img src="res/images/logo.png" width="50" height="50" alt="logo"></a>
+</header>
+<!-- Log in -->
+<div class="login">
+    <div><b>Welcome to PostIt</b></div>
+    <div><a class="link" href="">Create an account</a></div>
+    <div>or</div>
+    <div>Please log in</div>
+    <div>
+        <form action="index.html" method="POST">
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="Password" id="password" placeholder="Password" required>
+            <input class="loginButton" type="submit" value="Log in">
+        </form>
+    </div>
+    <div><a class="link" href="">Forgot password</a></div>
+</div>
+</body>
+</html>
