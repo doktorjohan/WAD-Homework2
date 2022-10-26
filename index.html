@@ -13,9 +13,18 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="addPost.html">Add Post</a></li>
     </ul>
-    <a href="login.html" id="logo"><img src="res/images/logo.png" width="50" height="50" alt="logo"></a>
-
+    <div class="dropdown">
+        <button onclick="dropDownFunction()"  class="dropbtn" ><img src="res/images/logo.png" width="50" height="50"></button>
+        <div id="drop" class="dropdown-content">
+            <a href="https://www.youtube.com/watch?v=Vy8moBcKVIM">John Deez</a>
+            <a href="https://www.youtube.com/watch?v=rzLIUgnKY40">Deez Louize</a>
+            <a href="https://www.youtube.com/watch?v=d5xPnWNVr1c">logout</a>
+        </div>
+    </div>
 </header>
+
+
+</div>
 <div class="gridContainer">
     <div class="side"></div>
     <div id="feed">
@@ -44,5 +53,6 @@
 </footer>
 
 <script src="src/js/script.js"></script>
+<script src="src/js/dropdownfile.js"></script>
 </body>
 </html>

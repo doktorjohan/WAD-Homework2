@@ -4,6 +4,7 @@ window.onload = function () {
         .then(response => response.json())
         .then(json => {
 
+
             for (let post of json) {
 
                 let postContainer = document.createElement("div")
@@ -67,4 +68,7 @@ window.onload = function () {
 
 
         })
+
+
+
 }
