@@ -1,6 +1,7 @@
 window.onload = function () {
     console.log("tere")
-    fetch("http://myjson.dit.upm.es/api/bins/azjs")
+    //http://myjson.dit.upm.es/api/bins/azjs
+    fetch("http://myjson.dit.upm.es/api/bins/fo2q")
         .then(response => response.json())
         .then(json => {
 
