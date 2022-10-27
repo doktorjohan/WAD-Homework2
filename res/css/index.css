@@ -133,10 +133,12 @@ footer {
 .dropdown-content {
     display: none;
     position: absolute;
+    right: 0px;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+
 }
 
 /* Links inside the dropdown */
@@ -160,7 +162,7 @@ footer {
     padding: 16px;
     font-size: 16px;
     border: none;
-    cursor: grab;
+    cursor: pointer;
 }
 
 /* Dropdown button on hover & focus */
