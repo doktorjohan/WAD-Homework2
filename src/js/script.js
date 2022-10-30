@@ -1,7 +1,6 @@
 window.onload = function () {
     console.log("tere")
-    //http://myjson.dit.upm.es/api/bins/azjs
-    fetch("http://myjson.dit.upm.es/api/bins/fo2q")
+    fetch("http://myjson.dit.upm.es/api/bins/7ydi") // validated at https://jsonlint.com/
         .then(response => response.json())
         .then(json => {
 
@@ -20,11 +19,6 @@ window.onload = function () {
                 let postFooter = document.createElement("div")
                 postFooter.className = "postFooter"
 
-                /*let title = document.createElement("h3")
-                let titleText = document.createTextNode(post.title)
-                title.appendChild(titleText)
-                postHeader.appendChild(title)*/
-
                 // Adding profile picture to post's header
                 let profilePic = document.createElement("img")
                 profilePic.src = "res/images/logo.png"
@@ -39,10 +33,10 @@ window.onload = function () {
                 postHeader.appendChild(time)
 
                 // Adding post's image if provided in the json file
-                if (post.image != null){
+                if (post.image != null) {
                     let postImg = document.createElement("img")
                     postImg.src = post.image
-                    postImg.alt = post.image.split("/")[post.image.split("/").length-1]
+                    postImg.alt = "Post's image"
                     postImg.className = "postPic"
                     postBodyContainer.appendChild(postImg)
                 }
@@ -69,7 +63,6 @@ window.onload = function () {
 
 
         })
-
 
 
 }
